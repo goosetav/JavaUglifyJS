@@ -6,6 +6,10 @@ Run UglifyJS using the Rhino javascript runtime and a minimal set of dependencie
 * License: Apache License, Version 2.0.
 * http://www.apache.org/licenses/LICENSE-2.0.html
 
+== Distribution
+
+* v1.0 -- https://github.com/downloads/goosetav/JavaUglifyJS/JavaUglifyJS-1.0.jar
+
 == Credits
 * Mihai Bazon (mishoo) for Uglify - https://github.com/mishoo/UglifyJS 
 * Mozilla for the Rhino runtime - http://www.mozilla.org/rhino 
