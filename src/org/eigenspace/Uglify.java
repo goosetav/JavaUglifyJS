@@ -15,23 +15,20 @@ import org.mozilla.javascript.Scriptable;
  * @author Erik Gustavson
  * @since January 2012
  * 
- *        credit: Mihai Bazon (mishoo) for Uglify -
- *        https://github.com/mishoo/UglifyJS credit: Mozilla for the Rhino
- *        runtime - http://www.mozilla.org/rhino credit: Alex Objelean (alexo)
- *        for wroj4j which inspired this project and showing how to shim
- *        CommonJS to fix module loading - https://github.com/alexo/wro4j
- *        credit: Steven Haines for a nice tutorial on how to use Rhino -
- *        http://www.informit.com/guides/content.aspx?g=java&seqNum=562
+ * @credit: Mihai Bazon (mishoo) for Uglify - https://github.com/mishoo/UglifyJS 
+ * @credit: Mozilla for the Rhino runtime - http://www.mozilla.org/rhino 
+ * @credit: Alex Objelean (alexo) for wroj4j which inspired this project and showing how to shim CommonJS to fix module loading - https://github.com/alexo/wro4j
+ * @credit: Steven Haines for a nice tutorial on how to use Rhino - http://www.informit.com/guides/content.aspx?g=java&seqNum=562
  * 
- *        (C) Erik Gustavson, 2012
+ * (C) Erik Gustavson, 2012
  * 
- *        License: Apache License, Version 2.0.
- *        http://www.apache.org/licenses/LICENSE-2.0.html
+ * License: Apache License, Version 2.0.
+ * http://www.apache.org/licenses/LICENSE-2.0.html
  */
 public class Uglify {
 
 	/**
-	 * Convenience method to call compress with a single file
+	 * Convenience method to call minify a single file
 	 * 
 	 * @param uncompressedJavascript
 	 *            The js you want to compress
@@ -48,7 +45,7 @@ public class Uglify {
 	}
 
 	/**
-	 * 
+	 * Minify
 	 * 
 	 * @param uncompressedJavascripts
 	 * @return
