@@ -1,4 +1,4 @@
-package org.eigenspace;
+package org.eigenspace.uglify;
 
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -64,10 +64,10 @@ public class Uglify {
 			// Add all the libraries we need
 			List<String> libs = new ArrayList<String>();
 
-			libs.add("shim.js");
-			libs.add("lib/parse-js.js");
-			libs.add("lib/process.js");
-			libs.add("uglify-js.js");
+			libs.add("/js/shim.js");
+			libs.add("/js/lib/parse-js.js");
+			libs.add("/js/lib/process.js");
+			libs.add("/js/uglify-js.js");
 
 			for (String library : libs) {
 				try {

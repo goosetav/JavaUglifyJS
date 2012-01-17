@@ -1,7 +1,7 @@
 /**
  * 
  */
-package org.eigenspace;
+package org.eigenspace.uglify;
 
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
@@ -45,7 +45,7 @@ public class UglifyTest {
 		Uglify u = new Uglify();
 		
 		try {
-			InputStream in = getClass().getResourceAsStream("jquery-1.7.1.js");
+			InputStream in = getClass().getResourceAsStream("/jquery-1.7.1.js");
 			
 			String s = new Scanner(in).useDelimiter("\\A").next();
 			
